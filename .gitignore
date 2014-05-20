@@ -1,7 +1,6 @@
 /public/files/
 /public/studio/
 /public/wp/
-/__ci/
 /bootstrap/compiled.php
 /vendor
 composer.phar
