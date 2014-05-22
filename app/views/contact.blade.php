@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-				<section class="full-column">
+				<section class="full-column col-md-12">
 					<p>Yeah, yeah, yeah -- most people just put a <tt>mailto:</tt> link on their pages. Me? I try to avoid the spam robots whenever possible.</p>
 
 					{{ Form::open( array( 'url' => 'email' ) ) }}

@@ -10,38 +10,36 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" href="/images/gbueno.ico" type="image/vnd.microsoft.icon" />
 		<link rel="shortcut icon" href="/images/gbueno.ico" type="image/x-icon" />
-		<link rel="stylesheet" href="{{ VIGILANTMEDIA_CDN_BASE_URI }}/web/css/blueprint/screen.css" type="text/css" media="screen, projection" />
-		<link rel="stylesheet" href="{{ VIGILANTMEDIA_CDN_BASE_URI }}/web/css/blueprint/print.css" type="text/css" media="print" />
-		<!--[if lt IE 8]><link rel="stylesheet" href="{{ VIGILANTMEDIA_CDN_BASE_URI }}/web/css/blueprint/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css" />
 		<link rel="stylesheet" href="/css/typography.css" type="text/css" media="screen, projection" />
 		<link rel="stylesheet" href="/css/layout.css" type="text/css" media="screen, projection" />
-		<link rel="stylesheet" href="/css/mobile.css" type="text/css" media="screen and (max-width: 600px)" />
-		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="{{ VIGILANTMEDIA_CDN_BASE_URI }}/web/js/jquery.swfobject.js"></script>
 		<script type="text/javascript" src="{{ VIGILANTMEDIA_CDN_BASE_URI }}/web/js/jquery.swfobject.ext.js"></script>
-		<script type="text/javascript" src="{{ VIGILANTMEDIA_CDN_BASE_URI }}/web/js/modernizr-1.6.min.js"></script>
-		<!--[if lt IE 9]><script type="text/javascript" src="{{ VIGILANTMEDIA_CDN_BASE_URI }}/web/js/html5.js"></script><![endif]-->
 	</head>
 	<body>
 
-		<div id="container">
+		<div id="container" class="container">
+			<div class="row">
+				<div id="masthead" class="col-md-12">
+					<header id="logo" class="col-md-offset-1 col-md-8">
+						<hgroup>
+							<h1 id="title"><a href="/">Greg Bueno</a></h1>
+						</hgroup>
+					</header>
 
-			<div id="masthead">
-				<header id="logo">
-					<hgroup>
-						<h1 id="title"><a href="/">Greg Bueno</a></h1>
-					</hgroup>
-				</header>
-
-				<section id="logo-pic">
-					<img width="100" height="100" title="[Greg Bueno]" alt="[Greg Bueno]" src="/images/bio_wrp_vol_03_restraint.jpg" />
-				</section>
+					<section id="logo-pic" class="col-md-3">
+						<img width="100" height="100" title="[Greg Bueno]" alt="[Greg Bueno]" src="/images/bio_wrp_vol_03_restraint.jpg" />
+					</section>
+				</div>
 			</div>
 
-			<div id="content">
+			<div id="content" class="row">
 					@if (!empty($section_head))
-					<header id="content-header">
+					<header id="content-header" class="col-md-12">
 					@endif
 						@if (!empty($section_label))
 						<hgroup>

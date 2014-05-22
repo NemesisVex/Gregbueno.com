@@ -37,37 +37,18 @@ ul.distraction-list {
 }
 
 #container {
-	display: block;
-	width: 950px;
-	margin: 0 auto;
 }
 
 #content-header {
-	float: left;
-	padding-left: 40px;
-	width: 870px;
-	margin-left: 0;
-	padding-right: 40px;
 }
 
 #masthead {
-	float: left;
-	width: 950px;
-	margin-right: 0;
 	background-color: #9C0;
-	/* border-radius: 18px; */
-	padding-top: 3em;
+	padding-top: 1em;
 	margin-bottom: 1.5em;
 	#logo {
-		float: left;
-		width: 550px;
-		margin-right: 10px;
-		padding-left: 160px;
 	}
 	#logo-pic {
-		float: left;
-		width: 230px;
-		margin-right: 0;
 	}
 }
 
@@ -85,29 +66,18 @@ ul.distraction-list {
 }
 
 .column {
-	float: left;
-	padding-left: 40px;
-	padding-right: 40px;
 	background-color: #FFF;
 	color: #000;
 	padding-top: 1em;
-	/*
-	border-radius: 10px;
-	box-shadow: 2px 2px 0px #399FD5;
-	*/
 }
 
 .full-column {
 	.column;
-	width: 870px;
-	margin-right: 0;
 }
 
 .home-column {
 	.column;
-	width: 230px;
-	margin-right: 10px;
-	height: 33em;
+	min-height: 28em;
 }
 
 .home-column.final {
@@ -116,5 +86,16 @@ ul.distraction-list {
 
 .form-hidden {
 	display: none;
+}
+
+@media screen and (max-width: 992px) {
+	.home-column {
+		min-height: 20em;
+		padding-bottom: 1em;
+	}
+	
+	#logo-pic {
+		display: none;
+	}
 }
 
