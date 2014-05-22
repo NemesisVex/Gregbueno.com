@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-<section class="full-column">
+<section class="full-column col-md-12">
 	
 	<p>I've launched a lot of blogs over the years, and most of them have died from neglect. This page is a museum for those sites.</p>
 	

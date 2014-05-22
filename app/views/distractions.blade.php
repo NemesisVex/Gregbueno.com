@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-<section class="full-column">
+<section class="full-column col-md-12">
 
 	<ul class="distraction-list">
 		<li><a href="http://www.billboard.com/">Billboard</a></li>
