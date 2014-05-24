@@ -60,8 +60,10 @@
 				@yield('content')
 			</div>
 			
-			<footer class="centered">
-				<p>&copy; {{{ $copyright_year }}} Greg Bueno</p>
+			<footer class="row">
+				<div class="centered col-md-12">
+					<p>&copy; {{{ $copyright_year }}} Greg Bueno</p>
+				</div>
 			</footer>
 
 		</div>
