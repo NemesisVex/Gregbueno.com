@@ -6,21 +6,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" href="/images/gbueno.ico" type="image/vnd.microsoft.icon" />
 		<link rel="shortcut icon" href="/images/gbueno.ico" type="image/x-icon" />
-		<link rel="stylesheet" href="{{{ VIGILANTMEDIA_CDN_BASE_URI }}}/web/css/blueprint/screen.css" type="text/css" media="screen, projection" />
-		<link rel="stylesheet" href="{{{ VIGILANTMEDIA_CDN_BASE_URI }}}/web/css/blueprint/print.css" type="text/css" media="print" />
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css" />
 		<!--[if lt IE 8]><link rel="stylesheet" href="{{{ VIGILANTMEDIA_CDN_BASE_URI }}}/web/css/blueprint/ie.css" type="text/css" media="screen, projection" /><![endif]-->
 		<link rel="stylesheet" href="/css/crux/typography.css" type="text/css" media="screen, projection" />
 		<link rel="stylesheet" href="/css/crux/layout.css" type="text/css" media="screen, projection" />
-		<link rel="stylesheet" href="/css/crux/mobile.css" type="text/css" media="screen and (max-width: 600px)" />
 		<script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
 		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	</head>
 	<body class="crux">
 
-		<div id="container">
+		<div id="container" class="container">
 
-			<div id="masthead" class="centered">
-				<header id="logo">
+			<div id="masthead" class="centered row">
+				<header id="logo" class="col-md-12">
 					<hgroup>
 						<h1 id="title"><a href="/index.php/crux/"><img src="/images/starting_to_remember_logo.png" alt="[Starting to Remember]" title="[Starting to Remember]" id="logo" /></a></h1>
 						<h2 id="subtitle">A supernatural detective novel</h2>
@@ -28,7 +27,7 @@
 				</header>
 			</div>
 
-			<div id="content">
+			<div id="content" class="row">
 					@if (!empty($section_head))
 					<header id="content-header">
 					@endif
