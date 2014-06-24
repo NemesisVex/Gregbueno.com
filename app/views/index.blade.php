@@ -4,13 +4,14 @@
 				<section id="music" class="col-md-4 home-column">
 					<h3>Music</h3>
 
-					<p>I've been writing songs since high school, and I even got a degree in music from the University of Hawai&#699;i.</p>
+					<p>I've been writing songs since high school, and I even got a degree in music.</p>
 
-					<p>These days, most of my musical activity happens in my home studio, which I call the Closet West. I record under the monikers <a href="{{ $config_url_base['to_eponymous4'] }}/">Eponymous 4</a> and <a href="{{ $config_url_base['to_emptyensemble'] }}">Empty Ensemble</a>, and my vanity label is called <a href="{{ $config_url_base['to_observant'] }}/">Observant Records</a>.</p>
+					<p>These days, most of my musical activity happens in my home studio, which I call the Closet West.</p>
 
 					<ul>
 						<li><a href="{{ $config_url_base['to_eponymous4'] }}/">Eponymous 4</a></li>
 						<li><a href="{{ $config_url_base['to_emptyensemble'] }}/">Empty Ensemble</a></li>
+						<li><a href="{{ $config_url_base['to_penziaswilson'] }}/">Penzias and Wilson</a></li>
 						<li><a href="{{ $config_url_base['to_observant'] }}/">Observant Records</a></li>
 						<li><a href="{{ $config_url_base['to_shinkyokuadvocacy'] }}/">Shinkyoku Advocacy</a></li>
 					</ul>
