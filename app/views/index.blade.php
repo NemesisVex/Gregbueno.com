@@ -35,7 +35,7 @@
 				<section id="web" class="col-md-4 home-column">
 					<h3>Web</h3>
 
-					<p>I make a living as a web software engineer, working mostly with the CodeIgniter framework. Details can be found in my <a href="{{ $config_url_base['to_vigilantmedia'] }}/">online portfolio</a>.</p>
+					<p>I make a living as a web software engineer. Details can be found in my <a href="{{ $config_url_base['to_vigilantmedia'] }}/">online portfolio</a>.</p>
 
 					<p>I can also be found hanging around various social media sites.</p>
 
