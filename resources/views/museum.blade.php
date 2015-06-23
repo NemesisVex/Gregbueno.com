@@ -16,16 +16,16 @@
 	<h3>Musicwhore.org Blogs</h3>
 	
 	<ul>
-		<li><a href="{{ $config_url_base['to_archive'] }}">Archive.Musicwhore.org</a></li>
-		<li><a href="{{ $config_url_base['to_filmwhore'] }}">Filmwhore.org</a></li>
-		<li><a href="{{ $config_url_base['to_tvwhore'] }}/">TVwhore.org</a></li>
+		<li><a href="{{ config('global.url_base.to_archive') }}">Archive.Musicwhore.org</a></li>
+		<li><a href="{{ config('global.url_base.to_filmwhore') }}">Filmwhore.org</a></li>
+		<li><a href="{{ config('global.url_base.to_tvwhore') }}/">TVwhore.org</a></li>
 	</ul>
 	
 	<h3>Archived projects</h3>
 	
 	<ul>
-		<li><a href="{{ $config_url_base['to_austinstories'] }}">Austin Stories</a></li>
-		<li><a href="{{ $config_url_base['to_ddn'] }}">Duran Duran Networks</a></li>
+		<li><a href="{{ config('global.url_base.to_austinstories') }}">Austin Stories</a></li>
+		<li><a href="{{ config('global.url_base.to_ddn') }}">Duran Duran Networks</a></li>
 	</ul>
 </section>
 @stop
