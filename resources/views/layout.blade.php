@@ -12,8 +12,7 @@
 		<link rel="shortcut icon" href="/images/gbueno.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css" />
-		<link rel="stylesheet" href="/css/typography.css" type="text/css" media="screen, projection" />
-		<link rel="stylesheet" href="/css/layout.css" type="text/css" media="screen, projection" />
+		<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
 		<script type="text/javascript" src="//code.jquery.com/jquery-1.10.1.min.js"></script>
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
