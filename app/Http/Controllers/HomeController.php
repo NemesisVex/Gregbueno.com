@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace GregBueno\App\Http\Controllers;
 
 
 use Illuminate\Support\Facades\View;
