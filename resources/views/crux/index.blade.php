@@ -63,7 +63,7 @@
 	</section>
 
 	<section id="cover">
-		<img src="/images/starting_to_remember.jpg" alt="[Starting to Remember]" title="[Starting to Remember]" width="230" id="cover-image" />
+		<img src="/assets/images/starting_to_remember.jpg" alt="[Starting to Remember]" title="[Starting to Remember]" width="230" id="cover-image" />
 	</section>
 </aside>
 @stop
