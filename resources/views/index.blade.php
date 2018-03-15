@@ -41,14 +41,15 @@
 
 					<ul>
 						<li><a href="{{ config('global.url_base.to_vigilantmedia') }}/">Vigilant Media</a> <small>(online portfolio)</small></li>
-						<li><a href="http://bitbucket.org/NemesisVex/">Bitbucket profile</a></li>
+						<li><a href="https://bitbucket.org/NemesisVex/">Bitbucket profile</a></li>
+						<li><a href="https://bitbucket.org/observantrecords/">Observant Records Bitbucket profile</a></li>
 					</ul>
 
 					<ul id="nav-social">
-						<li><a href="http://twitter.com/NemesisVex/"><img src="{{ env( 'VIGILANTMEDIA_CDN_BASE_URI', '//cdn.vigilantmedia.com') }}/web/images/icons/twitter.png" alt="[Twitter]" title="[Twitter]" /></a></li>
-						<li><a href="http://facebook.com/greg.bueno/"><img src="{{ env( 'VIGILANTMEDIA_CDN_BASE_URI', '//cdn.vigilantmedia.com') }}/web/images/icons/facebook.png" alt="[Facebook]" title="[Facebook]" /></a></li>
-						<li><a href="http://last.fm/user/NemesisVex/"><img src="{{ env( 'VIGILANTMEDIA_CDN_BASE_URI', '//cdn.vigilantmedia.com') }}/web/images/icons/lastfm.png" alt="[Last.fm]" title="[Last.fm]" /></a></li>
-						<li><a href="http://www.linkedin.com/pub/3/3a3/a98"><img src="{{ env( 'VIGILANTMEDIA_CDN_BASE_URI', '//cdn.vigilantmedia.com') }}/web/images/icons/linkedin.png" alt="[LinkedIn]" title="[LinkedIn]" /></a></li>
+						<li><a href="https://twitter.com/NemesisVex/"><img src="{{ env( 'VIGILANTMEDIA_CDN_BASE_URI', '//cdn.vigilantmedia.com') }}/web/images/icons/twitter.png" alt="[Twitter]" title="[Twitter]" /></a></li>
+						<li><a href="https://facebook.com/greg.bueno/"><img src="{{ env( 'VIGILANTMEDIA_CDN_BASE_URI', '//cdn.vigilantmedia.com') }}/web/images/icons/facebook.png" alt="[Facebook]" title="[Facebook]" /></a></li>
+						<li><a href="https://last.fm/user/NemesisVex/"><img src="{{ env( 'VIGILANTMEDIA_CDN_BASE_URI', '//cdn.vigilantmedia.com') }}/web/images/icons/lastfm.png" alt="[Last.fm]" title="[Last.fm]" /></a></li>
+						<li><a href="https://www.linkedin.com/in/gregbueno/"><img src="{{ env( 'VIGILANTMEDIA_CDN_BASE_URI', '//cdn.vigilantmedia.com') }}/web/images/icons/linkedin.png" alt="[LinkedIn]" title="[LinkedIn]" /></a></li>
 						<li><a href="/contact/"><img src="{{ env( 'VIGILANTMEDIA_CDN_BASE_URI', '//cdn.vigilantmedia.com') }}/web/images/icons/email.png" alt="[E-mail]" title="[E-mail]" /></a></li>
 						<li><a href="/distractions/">more ...</a></li>
 					</ul>
