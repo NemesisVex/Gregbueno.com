@@ -1,44 +1,21 @@
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
-        Options -MultiViews
+        Options -MultiViews -Indexes
     </IfModule>
 
     RewriteEngine On
 
-    # Redirect Trailing Slashes...
-    RewriteRule ^(.*)/$ /$1 [L,R=301]
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
 
     # Handle Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
-
-AddType image/x-icon .ico
-AddType text/xml .rdf
-
-RedirectPermanent /remember http://www.lulu.com/product/paperback/starting-to-remember/6160089
-RedirectPermanent /ghost http://www.eponymous4.com
-
-Redirect 410 /members/list.php
-RedirectMatch 301 ^/(sakufu|meisakuki)/category/([0-9]*)(/|$) /wp/$1/category/$2/
-RedirectMatch 301 ^/(sakufu|meisakuki)/entry/([0-9]*)(/|$) /wp/$1/entry/$2/
-RedirectMatch 301 ^/(sakufu|meisakuki)/date/([0-9]*)(/|$) /wp/$1/$2/
-RedirectMatch 301 ^/meisakuki/entry/([0-9]*)/comments(/|$) /wp/meisakuki/entry/$1/
-RedirectMatch 301 ^/sakufu/entry/([0-9]*)/\#comments$ /wp/sakufu/entry/$1/#comments
-RedirectMatch 301 ^/(sakufu|meisakuki)/$ /wp/$1/
-RedirectMatch 301 ^/index.php/(sakufu|meisakuki|vexvox)/entry/([0-9]*)(/|$) /wp/$1/entry/$2/
-
-SetEnvIf HOST dev.gregbueno.com dev
-SetEnvIf HOST test.gregbueno.com test
-AuthType Basic
-AuthUserFile /home/nemesisv/.htpasswd
-AuthName "Gregbueno.com development site"
-require valid-user
-
-Order allow,deny
-Allow from all
-Deny from env=dev
-Deny from env=test
-Satisfy any
-

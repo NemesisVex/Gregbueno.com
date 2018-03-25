@@ -6,7 +6,7 @@
  * @author Greg Bueno
  */
 
-namespace GregBueno\App\Http\Controllers;
+namespace App\Http\Controllers;
 
 
 use Illuminate\Support\Facades\Input;
